@@ -7,7 +7,9 @@ To Interact with Dashboard: https://public.tableau.com/app/profile/omkar4768/viz
 The project includes three stages:
 
 > Web Scrapping
+
 > ETL pipeline
+
 > Dashboard construction
 
 Description:
