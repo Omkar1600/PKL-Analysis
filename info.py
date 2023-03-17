@@ -1,0 +1,186 @@
+player_id=[9, 10, 12, 14, 15, 16, 21, 22, 26, 28, 29, 34, 36, 38, 41, 42, 43, 44, 45, 46, 51, 52, 53, 54, 55, 56, 58, 61, 66, 67, 69, 70, 71, 72, 73, 74, 75, 76, 81, 84, 85, 86, 87, 88, 92, 94, 96, 97, 98, 101, 105, 106, 107, 108, 109, 111, 118, 119, 121, 123, 124, 141, 142, 143, 145, 146, 147, 150, 152, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 169, 170, 171, 172, 173, 174, 178, 179, 180, 181, 182, 184, 185, 190, 191, 193, 194, 195, 197, 199, 200, 201, 202, 204, 205, 207, 208, 210, 211, 212, 215, 217, 218, 219, 221, 222, 224, 225, 227, 228, 229, 230, 231, 232, 233, 234, 236, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 251, 252, 254, 258, 259, 260, 261, 263, 264, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 277, 278, 279, 283, 285, 288, 290, 293, 295, 296, 299, 300, 301, 302, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 320, 322, 323, 324, 326, 332, 335, 347, 348, 357, 360, 364, 365, 366, 367, 368, 369, 371, 376, 380, 386, 387, 388, 389, 390, 391, 392, 447, 482, 489, 511, 513, 514, 515, 519, 522, 536, 554, 567, 576, 579, 580, 589, 591, 599, 601, 605, 608, 610, 611, 613, 614, 620, 621, 629, 634, 638, 640, 644, 645, 647, 660, 667, 669, 689, 694, 696, 698, 705, 708, 710, 712, 718, 721, 724, 726, 727, 728, 729, 732, 734, 736, 737, 738, 741, 743, 746, 751, 757, 762, 763, 764, 765, 766, 768, 769, 771, 772, 773, 774, 776, 777, 778, 784, 786, 790, 792, 797, 2021, 2023, 2024, 2025, 2026, 2028, 2040, 2041, 2257, 2262, 2263, 2264, 2266, 2272, 2274, 2277, 2278, 2282, 2290, 2291, 2295, 2296, 2297, 2298, 2302, 2306, 2307, 2313, 2314, 2315, 2316, 2318, 2320, 2322, 2325, 2328, 2335, 2336, 2337, 2345, 2347, 2351, 2357, 3000, 3001, 3004, 3011, 3014, 3019, 3021, 3023, 3025, 3027, 3028, 3029, 3032, 3036, 3038, 3039, 3046, 3052, 3053, 3054, 3065,3070, 3075, 3076, 3081, 3082, 3083, 3084, 3086, 3087, 3088, 3089, 3093, 3094, 3095, 3097, 3098, 3099, 3100, 3101, 3103, 3104, 3106, 3107, 3111, 3115, 3126, 3128, 3138, 3148, 3151, 3152, 3154, 3156, 3159, 3161, 3162, 3167, 3169, 3174, 3175, 3176, 3177, 3179, 3180, 3189, 3208, 3221, 3222, 3223, 3224, 3225, 3226, 3227, 3228, 3229, 3230, 3233, 3234, 3235, 3236, 3237, 3238, 3239, 3240, 3241, 3343, 3472, 3574, 3593, 3964, 3965, 3966, 3969, 3970, 3973, 4020, 4022, 4032, 4036, 4058, 4106, 4141, 4157, 4179, 4183, 4184, 4186, 4192, 4195, 4198, 4222, 4224, 4228, 4675, 4693, 4723, 4750, 4757, 4769, 4795, 4798, 4848, 4849, 4917, 4923, 4925, 4928, 4929, 4933, 4935, 4937, 4939, 4944, 4945, 4947, 4948, 4949, 4950, 4953, 4954, 4956, 4957, 4958, 4959, 4960, 4961, 4962, 4963, 4964, 4965, 4966, 4967, 4968, 4969, 4970, 4971, 4972, 4974, 4977, 4978, 5002, 5003, 5004, 5012, 5016, 5018, 5019, 5021, 5022, 5023, 5032, 5033, 5037, 5039, 5042, 5046, 5052, 5053, 5054, 5055, 5057,5064, 5074, 5078, 5090, 5091, 5092, 5093, 5095, 5096, 5097, 5098, 5099, 5100, 5101, 5102, 5103, 5104, 5105, 5106, 5107, 5108, 5109, 5110, 5111, 5112, 5113, 5114, 5115, 5116, 5117, 5118, 5119, 5120, 5121, 5122, 5123, 5124, 5126, 5128,5130,5132]
+
+names=[]
+high_5ss=[]
+player_teams=[]
+super_10ss=[]
+super_raidss=[]
+super_tackless=[]
+total_defending_pointss=[]
+total_raid_pointss=[]
+red_cardss=[]
+raid_bonus_pointss=[]
+success_tackless=[]
+defence_touch_pointss=[]
+defending_bonus_pointss=[]
+raid_touch_pointss=[]
+unsuccesful_tackless=[]
+empty_raids=[]
+unsuccesful_tackless=[]
+success_raid_percents=[]
+tackle_success_rates=[]
+green_cardss=[]
+yellow_cardss=[]
+total_tackle_pointss=[]
+tackle_success_rates=[]
+success_raidss=[]
+unsuccess_raidss=[]
+roles=[]
+total_capture_pointss=[]
+tackle_bonus_pointss=[]
+locations=[]
+raid_map_locationss=[]
+career_best_pointss=[]
+success_tackles_per_matchs=[]
+not_out_percentages=[]
+raid_points_per_matchs=[]
+pointss=[]
+tackless=[]
+match_playeds=[]
+raidss=[]
+overs=[]
+points_per_match_raid_tackles=[]
+points_defence_offences=[]
+team_names=[]
+
+import requests
+import json
+import pandas as pd
+for i in player_id:
+    url = "https://feeds.prokabaddi.com/SI/PlayerProfile/{}.json".format(i)
+    print(i)
+    payload={}
+    headers = {}
+    response = requests.request("GET", url, headers=headers, data=payload)
+    data=response.text
+    file1 = open("info.json", "w")
+    file1.write(data)
+    file1.close()
+
+    with open('info.json') as f:
+        jd=json.load(f)
+        name=jd['bio']["full_name"]
+        over=jd["over_all_stats"][-1]
+        raids=over['raids']
+        match_played=over["match_played"]
+        tackles=over["tackles"]
+        points=over["point"]
+        raid_points_per_match=over["raid_points_per_match"]
+        not_out_percentage=over["not_out_percentage"]
+        success_tackles_per_match=over["success_tackles_per_match"]
+        points_per_match_raid_tackle=over["points_per_match_raid_tackle"]
+        points_defence_offence=over["points_defence_offence"]
+        role=over["role"]
+        total_capture_points=over["total_capture_points"]
+        tackle_bonus_points=over["tackle_bonus_points"]
+        raid_map_locations=over["raid_map_locations"]
+        location=over["location"]
+        career_best_points=over["career_best_points"]
+        total_tackle_points=over["total_tackle_points"]
+        tackle_success_rate=over["tackle_success_rate"]
+        success_raids=over["success_raids"]
+        unsuccess_raids=over["unsuccess_raids"]
+        yellow_cards=over["yellow_cards"]
+        green_cards=over["green_cards"]
+        success_raid_percent=over["success_raid_percent"]
+        empty_raid=over["empty_raid"]
+        unsuccesful_tackles=over["unsuccesful_tackles"]
+        raid_touch_points=over["raid_touch_points"]
+        defending_bonus_points=over["defending_bonus_points"]
+        defence_touch_points=over["defence_touch_points"]
+        success_tackles=over["success_tackles"]
+        raid_bonus_points=over["raid_bonus_points"]
+        red_cards=over["red_cards"]
+        total_raid_points=over["total_raid_points"]
+        total_defending_points=over["total_defending_points"]
+        super_tackles=over["super_tackles"]
+        super_raids=over["super_raids"]
+        player_team=over["player_team"]
+        super_10s=over["super_10s"]
+        high_5s=over["high_5s"]
+        team_name=over['player_team_arr'][0]['team_name']
+        
+        names.append(name)
+        high_5ss.append(high_5s)
+        player_teams.append(player_team)
+        super_10ss.append(super_10s)
+        super_raidss.append(super_raids)
+        super_tackless.append(super_tackles)
+        total_defending_pointss.append(total_defending_points)
+        total_raid_pointss.append(total_raid_points)
+        red_cardss.append(red_cards)
+        raid_bonus_pointss.append(raid_bonus_points)
+        success_tackless.append(success_tackles)
+        defence_touch_pointss.append(defence_touch_points)
+        defending_bonus_pointss.append(defending_bonus_points)
+        raid_touch_pointss.append(raid_touch_points)
+        unsuccesful_tackless.append(unsuccesful_tackles)
+        success_raid_percents.append(success_raid_percent)
+        empty_raids.append(empty_raid)
+        tackle_success_rates.append(tackle_success_rate)
+        raidss.append(raids)
+        match_playeds.append(match_played)
+        tackless.append(tackles)
+        pointss.append(points)
+        raid_points_per_matchs.append(raid_points_per_match)
+        not_out_percentages.append(not_out_percentage)
+        success_tackles_per_matchs.append(success_tackles_per_match)
+        career_best_pointss.append(career_best_points)
+        raid_map_locationss.append(raid_map_locations)
+        locations.append(location)
+        tackle_bonus_pointss.append(tackle_bonus_points)
+        total_capture_pointss.append(total_capture_points)
+        roles.append(role)
+        unsuccess_raidss.append(unsuccess_raids)
+        success_raidss.append(success_raids)
+        total_tackle_pointss.append(total_tackle_points)
+        yellow_cardss.append(yellow_cards)
+        green_cardss.append(green_cards)
+        points_defence_offences.append(points_defence_offence)
+        points_per_match_raid_tackles.append(points_per_match_raid_tackle)
+        team_names.append(team_name)
+        
+
+dfs={
+    'name':names,
+    'team_name':team_names,
+    'high_5s':high_5ss,
+    'player_team':player_teams,
+    'super_10s':super_10ss,
+    'super_raids':super_raidss,
+    'super_tackles':super_tackless,
+    'total_defending_points':total_defending_pointss,
+    'total_raid_points':total_raid_pointss,
+    'red_cards':red_cardss,
+    'raid_bonus_points':raid_bonus_pointss,
+    'success_tackles':success_tackless,
+    'defence_touch_points':defence_touch_pointss,
+    'defending_bonus_points':defending_bonus_pointss,
+    'raid_touch_points':raid_touch_pointss,
+    'unsuccesful_tackles':unsuccesful_tackless,
+    'success_raid_percent':success_raid_percents,
+    'empty_raid':empty_raids,
+    'tackle_success_rate':tackle_success_rates,
+    'raids':raidss,
+    'match_player':match_playeds,
+    'tackles':tackless,
+    'points':pointss,
+    'raid_points_per_match':raid_points_per_matchs,
+    'not_out_percentage':not_out_percentages,
+    'success_tackles_per_match':success_tackles_per_matchs,
+    'career_best_points':career_best_pointss,
+    'raid_map_locations':raid_map_locationss,
+    'location':locations,
+    'tackle_bonus_points':tackle_bonus_pointss,
+    'role':roles,
+    'unsuccess_raids':unsuccess_raidss,
+    'success_raids':success_raidss,
+    'total_tackle_points':total_tackle_pointss,
+    'yellow_cards':yellow_cardss,
+    'green_cards':green_cardss,
+    'points_per_match_raid_tackle':points_per_match_raid_tackles,
+    'points_defence_offence':points_defence_offences,
+    }
+            
+df=pd.DataFrame(dfs)
+df.to_csv("Trailf.csv",index=False)
